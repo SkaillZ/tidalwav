@@ -22,7 +22,7 @@ namespace Tidalwav.Editor
         private Vector2 _previewScrollPos;
         private int _lastPreviewSample;
 
-        [MenuItem("Window/Tools/WAV Loop Editor")]
+        [MenuItem("Window/Audio/WAV Loop Editor")]
         public static void Open()
         {
             GetWindow<WavLoopEditorWindow>().Show();

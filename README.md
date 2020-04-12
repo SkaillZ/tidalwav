@@ -23,21 +23,33 @@ Compared to using scripts to set the playback position to the start of the loop
 when the AudioClip's current time is past the loop's end, this method is framerate-independent, 
 so there won't be any stutters.
 
+## Installation
+
+### Package Manager
+Open the Package Manager in *Window - Package Manager*. Click the "+" button and choose
+*Add package from git URL...*. Enter `https://github.com/SkaillZ/tidalwav.git` and click
+*Add*.
+
+### Manual Installation
+Copy the files in the `Editor` folder into a subdirectory of the `Editor` folder
+in your project.
+
 ## Usage
 
 ![Screenshot](doc/screenshot.png "Screenshot")
 
-Select an AudioClip and click "Load". Depending on the file size, loading might
+Open the WAV Loop Editor window in *Window - Audio - WAV Loop Editor*.
+Next, select an AudioClip and click *Load*. Depending on the file size, loading might
 take a while.
 
-Click "Add Custom Loop" to add a loop to the file. You can select if you want to
+Click *Add Custom Loop* to add a loop to the file. You can select if you want to
 display the start and end time in samples or minutes and seconds.
 In the start and stop fields, you can enter the start and stop time of the loop
-in the selected unit. Click "Save" to apply your changes to the file.
+in the selected unit. Click *Save* to apply your changes to the file.
 
 A preview window is displayed on the bottom. Click the "-" and "+" buttons to
 zoom in and out and click the play button on the right to play back your loop.
-You can also use the "Start" and "End" buttons to set the loop's start or end
+You can also use the *Start* and *End* buttons to set the loop's start or end
 point to the current playback position.
 
 Please note that audio will still be played back from start to finish if looping is
