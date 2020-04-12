@@ -1,0 +1,20 @@
+{
+  "name": "net.skaillz.tidalwav",
+  "version": "0.1.0",
+  "displayName": "tidalwav WAV Loop Editor",
+  "description": "Allows adding custom loops to WAV files",
+  "unity": "2018.4",
+  "unityRelease": "0f1",
+  "dependencies": {
+ },
+ "keywords": [
+    "wav",
+    "loop",
+    "audio"
+  ],
+  "author": {
+    "name": "SkaillZ",
+    "email": "skaillzsupp@gmail.com",
+    "url": "https://skaillz.net"
+  }
+}
