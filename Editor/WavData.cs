@@ -147,6 +147,11 @@ namespace Tidalwav.Editor
 
                     return loops;
                 }
+                else
+                {
+                    // Check smpl chunk for every byte instead of every 4 bytes.
+                    reader.BaseStream.Seek(-3, SeekOrigin.Current);
+                }
             }
 
             smplStart = -1;
